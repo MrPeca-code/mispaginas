@@ -1,0 +1,42 @@
+/*se quitan margenes*/
+
+*{
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    /*background-color: #f5f3f1;*/
+    background-image:url("c:\\Users\\angel\\OneDrive\\Escritorio\\sergio\\adolfo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*selectores basicos con class*/
+
+/*(header)*/
+
+.header{
+    background-color: #073407;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 15px 50px;
+}
+
+.header img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.header ul {
+    display: flex;
+    gap: 45px;
+    list-style: none;
+}
