@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slider de videos</title>
+  <link rel="stylesheet" href="CSS/video.css">
+  <script src="JS/video.js" defer></script>
+</head>
+<body>
+  <section id="galeria">
+    <h1>Mis videos</h1>
+    <p>Haz clic en cualquier video para verlo.</p>
+    <div class="slider">
+      <button class="flecha prev">&#8249;</button>
+      <div class="pista" id="pista">
+        
+        <button class="item" data-src="C:\Users\angel\OneDrive\Escritorio\pagina web\videos.serch\Esperón - Cortamos y Volvemos (Letra).mp4">
+          <div class="miniatura">
+            <video src="C:\Users\angel\OneDrive\Escritorio\pagina web\videos.serch\Esperón - Cortamos y Volvemos (Letra).mp4#t=8" preload="metadata" muted playsinline></video>
+            <div class="play"><span></span></div>
+          </div>
+          <div class="titulo">Cortamos y volvemos</div>
+        </button>
+
+        <button class="item" data-src="C:\Users\angel\OneDrive\Escritorio\pagina web\videos.serch\Esperón - Peligrosa.mp4">
+          <div class="miniatura">
+            <video src="C:\Users\angel\OneDrive\Escritorio\pagina web\videos.serch\Esperón - Peligrosa.mp4#t=1" preload="metadata" muted playsinline></video>
+            <div class="play"><span></span></div>
+          </div>
+          <div class="titulo">peligrosa</div>
+        </button>
+
+        <button class="item" data-src="videos.serch\PH Theme Intro.mp4">
+          <div class="miniatura">
+            <video src="videos.serch\PH Theme Intro.mp4#t=1" preload="metadata" muted playsinline></video>
+            <div class="play"><span></span></div>
+          </div>
+          <div class="titulo">no se</div>
+        </button>
+
+      </div>
+      <button class="flecha next">&#8250;</button>
+    </div>
+  </section>
+  <dialog id="ventana">
+    <button class="cerrar" id="cerrar">&#10005;</button>
+    <video id="reproductor" controls playsinline></video>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>

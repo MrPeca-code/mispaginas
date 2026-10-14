@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/promedio.css">
+    <script src="js/nomina.js" defer></script>
+</head>
+<body>
+    <div>
+        <h2>sistema de nominas</h2>
+        <form id="miformulario">
+
+            <input type="text" id="nombre" placeholder="Nombre del empleado">
+
+            <input type="number" id="horas" placeholder="Horas trabajadas" min="1">
+
+            <input type="number" id="pago" placeholder="pago por hora" min="1" step="0.01">
+
+            <button type="submit">Calcular nomina</button>
+            <div id="resultado" class="resultado"></div>
+
+        </form>
+    </div>
+    
+</body>
+</html>
